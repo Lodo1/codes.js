@@ -1,0 +1,43 @@
+body{
+	background-color: lightblue;
+}
+h1{
+	color:white;
+	text-align:center;
+}
+#intro{
+	width: 500px;
+	border: solid 5px #0097A7; /*the border around the words */
+	padding:15px; /* the space around the words and the border*/
+	padding-top:25px; 
+	margin:0 auto; /*the space between the words in the div compered to the site*/
+    margin-left:100px;
+    height:450px;
+    width:400px;
+
+    color: #2f3542;
+    font-size:20px;
+    font-family:tahoma;/* writing type*/
+    font-style:italic;
+}
+#games{
+	border: solid 10px #ffbe76;
+	width: 500px; /* the width */
+	margin:0 auto;
+	padding:4px;
+	 /*in the center   0 is 1 1 is 2 2 is 3 3is 4*/
+
+}
+#sites{
+	border: solid 20px #2ecc71 ;
+margin-left:50px;
+	color:#e74c3c;
+	width:60px;
+	height:200px;
+	
+}
+*{
+	color: blue;
+	padding:0;  
+	margin:0 ;
+}
