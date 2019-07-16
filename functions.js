@@ -116,7 +116,7 @@ for(var i in list ){
 return output;
   
 }
-document.write(pluck([{name: 'moe', age: 40}, {name: 'larry', age: 50}, {name: 'curly', age: 60}], 'name'));
+document.write(_.pluck([{name: 'moe', age: 40}, {name: 'larry', age: 50}, {name: 'curly', age: 60}], 'name'));
 
 
 // input: [1, 2, 3], 3
