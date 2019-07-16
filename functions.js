@@ -26,7 +26,18 @@ console.log(isUndefined(i));
 console.log(isUndefined(b));
 
 
-
+function isSquar(num){
+    if(typeof num !== "number"){
+        return "enter a number";
+    }
+    //if the num is 16 % 4 =4; 
+    // if the num 5 % 5 sqrt !- integer 
+   if (num%Math.sqrt(num)===0){
+return "a Square number";
+   }
+   return "not a squarr number";
+}
+console.log(isSquar(16));
 function isSquareNumber(num) {
 if(typeof num !== "number"){
     return "you have to enter a number";
